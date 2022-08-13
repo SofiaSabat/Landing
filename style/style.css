@@ -1,0 +1,310 @@
+@import url(reset.css);
+
+@font-face {
+    font-family: Kanit;
+    src: url(fonts/Kanit/Kanit-Medium.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(fonts/Lato/Lato-Light.ttf);
+}
+
+body {
+    background-color: #E5E5E5;
+    ;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.header {
+    height: 120px;
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    background-color: #fff;
+}
+
+.downdrop {
+    display: block;
+    position: relative;
+}
+
+.downdrop-child {
+    display: none;
+}
+
+.downdrop-child a {
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.downdrop:hover .downdrop-child {
+    display: block;
+    background-color: #fff;
+    width: 345px;
+    height: 359px;
+    position: absolute;
+    left: 55px;
+    top: 35px;
+    padding-left: 40px;
+    text-decoration: underline;
+}
+
+.header-logo {
+    margin: 0 auto;
+}
+
+.main {}
+
+.uil {
+    font-size: 40px;
+    cursor: pointer;
+    padding-left: 45px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    color: #fff;
+    height: 570px;
+}
+
+.left-photo {
+    width: 50%;
+}
+
+.right-photo {
+    background-color: black;
+    width: 50%;
+}
+
+.inner-wrapper {
+    padding: 110px 110px 150px 108px;
+}
+
+.inner-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 66px;
+}
+
+.data {
+    font-size: 14px;
+    line-height: 20.93px;
+    letter-spacing: 7px;
+}
+
+.heading {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+    margin-bottom: 29px;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 54px;
+}
+
+.inner-btn {
+    width: 198px;
+    height: 55px;
+    background-color: black;
+    color: #fff;
+    outline: 1px solid #fff;
+}
+
+/* .................................................... */
+.second-container {
+    width: 1440px;
+    padding: 59px 150px 63px 149px;
+    display: flex;
+    position: relative;
+}
+
+.topic {
+    position: absolute;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.left-img {
+    margin-top: 50px;
+    margin-right: 27px;
+    width: 557px;
+}
+
+.flex-second-inner {
+    margin-top: 26px;
+    margin-bottom: 34px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second-data {
+    font-size: 14px;
+    line-height: 20.93px;
+    letter-spacing: 7px;
+
+}
+
+.second-heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 19px;
+
+}
+
+.second-description {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.right-img {
+    margin-top: 50px;
+
+
+    width: 557px;
+}
+
+.underline {
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+/* .................................... */
+.third-container {
+    width: 1440px;
+    padding: 0px 150px 63px 149px;
+    display: flex;
+    position: relative;
+}
+
+.first-img {
+    margin-right: 27px;
+    width: 363px;
+}
+
+.third-inner-flex {
+    margin-top: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second-img {
+    margin-right: 27px;
+
+}
+
+.third-btn {
+    position: absolute;
+    top: 390px;
+    left: 602px;
+    width: 238px;
+    height: 42px;
+    background-color: #303030;
+    color: #fff;
+}
+
+.black-btn {
+    width: 238px;
+    height: 42px;
+    background-color: #303030;
+    color: #fff;
+}
+
+.third-img {}
+
+.fourth-container {
+    display: flex;
+    padding: 45px 150px 63px 149px;
+    margin-bottom: 60px;
+
+}
+
+.f-left-img {
+    width: 570px;
+    height: 360px;
+
+
+}
+
+.f-right-img {
+    background-color: black;
+    width: 570px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+.f-heading {
+    padding-top: 123px;
+    margin: 0 auto;
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.f-black-btn {
+    margin: 40px 186px 123px 187px;
+    width: 198px;
+    height: 42px;
+    background-color: black;
+    color: #fff;
+    outline: 1px solid white;
+}
+
+/* .............................................. */
+.footer {
+    height: 163px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-top: 55px;
+}
+
+.designer {
+    color: white;
+    margin-top: 58px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.news {
+    top: -48px;
+}
+
+.interviews {
+    top: -48px;
+
+}
+
+.featured {
+    top: 60px;
+    left: 160px;
+}
